@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--TecCircleSeekBar-->
+    <declare-styleable name="TecCircleSeekBarStyle">
+        <!--外圆宽度和颜色-->
+        <attr name="outerWidth" format="dimension"/>
+        <attr name="outerColor" format="color"/>
+        <!--内圆宽度和颜色-->
+        <attr name="innerWidth" format="dimension"/>
+        <attr name="innerColor" format="color"/>
+        <!--内圆背景色-->
+        <attr name="innerBgColor" format="color"/>
+        <!--内边距-->
+        <attr name="innerPadding" format="dimension"/>
+        <!--当前的值-->
+        <attr name="rotation" format="integer"/>
+        <!--总的值-->
+        <attr name="sumRotation" format="integer"/>
+        <!--thumb-->
+        <attr name="thumb" format="reference"/>
+        <!--顺时针还是逆时针-->
+        <attr name="clockWise" format="boolean"/>
+        <!--纠正角度-->
+        <attr name="correctAngle" format="integer"/>
+        <!--该控件是多少度的圆-->
+        <attr name="sweepAngle" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="TecCircleSeekBarTheme">
+        <attr name="tecCircleSeekBarStyle" format="reference"/>
+    </declare-styleable>
+</resources>

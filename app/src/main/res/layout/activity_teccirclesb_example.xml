@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Example one"/>
+        <com.geek_era.android.GeekViews.TecCircleSeekBar
+            android:id="@+id/TCSB_one"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:correctAngle="70"
+            app:sweepAngle="250"
+            app:clockWise="false"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Example two"/>
+
+        <com.geek_era.android.GeekViews.TecCircleSeekBar
+            android:id="@+id/TCSB_two"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:outerWidth="5dp"
+            app:outerColor="#FC7322"
+            app:innerWidth="15dp"
+            app:innerColor="#FD4655"
+            app:innerBgColor="#FC7322"
+            app:innerPadding="5dp"
+            app:rotation="100"
+            app:sumRotation="200"/>
+    </LinearLayout>
+</ScrollView>

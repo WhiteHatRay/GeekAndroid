@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TecCircleSeekBar进度条颜色-->
+    <color name="colorTecCircleSeekBarProgress">#2fa83e</color>
+    <!--TecCircleSeekBar内圆进度条背景色-->
+    <color name="colorTecCircleSeekBarProgressInnerBg">#2fa83e</color>
+    <!--TecCircleSeekBar内圆进度条颜色-->
+    <color name="colorTecCircleSeekBarProgressInner">#18d62e</color>
+</resources>
