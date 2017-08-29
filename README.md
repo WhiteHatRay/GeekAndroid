@@ -7,8 +7,6 @@ Android fast development drived by Ray
 
 ## Views
 ### TecCircleSeekBar
-
-<center>![image](https://raw.githubusercontent.com/WhiteHatRay/GeekAndroid/master/screenshot/teccircleseekbar.jpg)</center>
-
+  ![TecCircleSeekBar](https://raw.githubusercontent.com/WhiteHatRay/GeekAndroid/master/screenshot/teccircleseekbar.jpg "TecCircleSeekBar")
 Learn How to Use: https://geek-era.com/site/detail?art_id=80
 
