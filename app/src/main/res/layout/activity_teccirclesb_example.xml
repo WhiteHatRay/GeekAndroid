@@ -13,7 +13,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Example one"/>
-        <com.geek_era.android.GeekViews.TecCircleSeekBar
+        <com.geek_era.android.GeekViews.TecArcSeekBar
             android:id="@+id/TCSB_one"
             android:layout_width="200dp"
             android:layout_height="200dp"
@@ -28,7 +28,7 @@
             android:gravity="center"
             android:text="Example two"/>
 
-        <com.geek_era.android.GeekViews.TecCircleSeekBar
+        <com.geek_era.android.GeekViews.TecArcSeekBar
             android:id="@+id/TCSB_two"
             android:layout_width="300dp"
             android:layout_height="300dp"

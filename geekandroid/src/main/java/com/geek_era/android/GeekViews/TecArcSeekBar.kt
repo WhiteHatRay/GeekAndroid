@@ -16,7 +16,7 @@ import com.geek_era.android.R
  * Website: http://www.geek-era.com
  * Email:nuoone@163.com
  */
-class TecCircleSeekBar : View {
+class TecArcSeekBar : View {
     private var progressWidth = 2f //progress width, default 2
     private var innerProgressWidth = 20f //内圆宽度
     private var innerPadding = 2f //外部进度条与内部进度条的边距
